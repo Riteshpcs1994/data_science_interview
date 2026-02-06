@@ -101,7 +101,11 @@ Step 3 : Further split large chunks
         else:
             final_chunks.append(chunk.page_content)
 ```
+## 4. Is latency increase when we increase the context lenght in Rag System?
+Long context dramatically increases latency, primarily during the LLM generation phase due to the quadratic complexity of attention and memory bandwidth limits.
 
+## 5. Mean Reciprocal Rank (MRR)
+How early the first correct / relevant result appears in the ranked list.
 
 
 
