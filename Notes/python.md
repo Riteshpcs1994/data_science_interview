@@ -12,6 +12,17 @@ transactions["approved_amount"] = transactions["amount"].where(
 )
 ```
 
+```
+df[["class"]][df["student"] >=5] --> Return dataframe
+
+df["class"][df["student"] >=5] --> Return Series
+
+```
+
+
+
+
+
 
 
 
